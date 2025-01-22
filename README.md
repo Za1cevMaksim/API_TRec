@@ -56,7 +56,14 @@
 
 ## Установка и запуск приложения
 
-### Шаг 1: Установите зависимости
+### Шаг 1: Клонирование репозитория
+Склонируйте проект из репозитория:
+```bash
+git clone https://github.com/Za1cevMaksim/API_TRec
+```
+---
+
+### Шаг 2: Установите зависимости
 
 Создайте виртуальное окружение и активируйте его:
 
@@ -72,7 +79,7 @@ pip install -r requirements.txt
 
 ---
 
-### Шаг 2: Убедитесь в наличии Tesseract-OCR
+### Шаг 3: Убедитесь в наличии Tesseract-OCR
 
 Убедитесь, что Tesseract установлен на вашем компьютере:
 
@@ -88,7 +95,7 @@ sudo apt install tesseract-ocr
 
 ---
 
-### Шаг 3: Запустите Backend
+### Шаг 4: Запустите Backend
 
 ```bash
 uvicorn main:app --reload
@@ -100,7 +107,7 @@ uvicorn main:app --reload
 
 ---
 
-### Шаг 4: Запустите Frontend
+### Шаг 5: Запустите Frontend
 
 
 ```bash
